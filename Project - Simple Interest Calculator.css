@@ -1,0 +1,61 @@
+body {
+  background-color:black;
+  font-family:verdana;
+}
+p {
+  margin:0px;
+}
+.maindiv {
+  background-color:white;
+  padding-top:15px;
+  padding-bottom:25px;
+  width:510px;
+  border-radius:24px;
+}
+h1 {
+  color:gray;
+  font-weight:bold;
+  text-align:center;  
+}
+label {
+  margin-left:30px;
+}
+.sub-section {
+  display:flex;
+}
+.section-row {
+  padding-left:66px;
+  width:126px;
+}
+.input-section {
+  flex:1;
+}
+#year {
+  width:30px;
+  height:15px;
+}
+#amount {
+  width:172px;
+  margin-bottom:17px;
+}
+#rate {
+  margin-bottom:10px;
+}
+span {
+  display:inline-block;
+}
+#compute-button {
+  margin-top:14px;
+}
+footer {
+  margin-top:25px;
+  margin-left:20px;
+}
+#result {
+  margin-left:66px;
+  margin-top:14px;
+  font-size:90%;
+}
+.values {
+  background-color:yellow;
+}
