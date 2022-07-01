@@ -113,13 +113,6 @@ class Game:
                     self._small_dot.randomize_dot()
                     self._big_dot.randomize_dot()
 
-            # It handles events when the key is pressed
-            elif not self._game_over and event.type == KEYDOWN:
-                if event.key == pygame.K_q:
-                    self._big_dot.radius /= 5
-                elif event.key == pygame.K_a:
-                    self._big_dot.radius *= 5
-
             # It handles event when mouse clicks down
             # Increases the small_dot velocity
             elif not self._game_over and event.type == MOUSEBUTTONDOWN:
